@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181B;
+    font-family: cursive;
+}
+.container{
+    width: 400px;
+    background-color: #1c1c1f;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    color: #fff;
+    border: 2px solid #ffffff1f;
+}
+.textarea{
+    color: #aaaaaa;
+    width: 100%;
+    height: 130px;
+    resize: none;
+    outline: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    border: 2px solid #ffffff1f;
+    background: transparent;
+}
+
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    color: #A1A1AA;
+    font-size: 18px;
+}
+.total-counter{
+    color: steelblue;
+}
+.remaining-counter{
+    color: #ff0606;
+}
